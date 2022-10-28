@@ -42,7 +42,7 @@
                 <h2>SmartWatch Serie 8</h2>
                 <p class="price">S/ 70</p>
                 <div class="boton">
-                    <button>Detalles</button>
+                    <button onclick="openModal()">Detalles</button>
                     <button>Comprar</button>
                 </div>
             </div>
@@ -113,9 +113,58 @@
             </div>
         </div>
     </div>
+    <!-- MODAL CARACTERISTICAS -->
+    <div class="modal-smart" id="modalAdd">
+        <!-- MODAL CONTAINER -->
+        <div class="modal-container">
+            <!-- MODAL CONTENT CERRAR -->
+            <div class="modal-content">
+                <button typed="button" class="modal-close_btn" onclick="closeModal()">x</button>
+            </div>
+            <!-- MODAL INFO -->
+            <h2 class="modal-title">SmartWatch Serie 8 T900 Pro Max L Grande</h2>
+            <p class="modal-text">
+                Forma: Rectangular <br>
+                Dimensión: 44*38*10,7mm <br>
+                Peso: 50 gramos <br>
+                Colores: Negro, Azul, Rosa, <br>
+                Monitor: IPS <br>
+                Tamaño de pantalla: 1,92 pulgadas <br>
+                Resolución de la pantalla: 325*380 píxeles <br>
+                Sistema operativo compatible: Android e IOS <br>
+                Sensor de frecuencia cardíaca <br>
+                Sensor G <br>
+                Bluetooth: V5.0 <br>
+                GPS: NO <br>
+                Altavoz: Sí <br>
+                Micrófono: Sí <br>
+                Modo multideporte: Sí <br>
+                Monitor de pulso cardiaco: Sí <br>
+                Monitor de oxígeno en sangre: Sí <br>
+                Monitor de presión arterial: Sí <br>
+                Impermeable: IP67 a prueba de agua(No nadar con el reloj) <br>
+                Características adicionales <br>
+                Llamadas Bluetooth  <br>
+                recordatorio sedentario <br>
+                monitor de sueño <br>
+                Alarma <br>
+                Barómetro <br>
+                Capacidad de la batería: 200 mAh <br>
+                Ajuste de brillo... etc. <br>
+                Uso normal 2-5 días (va depender del uso) <br>
+                Nombre de la aplicación: Hiwatch plus <br>
+                Correa Silicona</p>
+            <!-- MODAL CERRAR-->
+            <div class="modal-cerrar">
+                <button type="button" class="modal-boton" onclick="closeModal()">Cerrar</button>
+            </div>
+        </div>
+    </div>
     <!-- FOOTER -->
     <footer class="footer">
         <span class="footer-span"> Made in Peru / by <a href="#" class="footer-boton">ElGato</a></span>
     </footer>
+    <!-- SCRIPT -->
+    <script src="/assets/js/modal.js"></script>
 </body>
 </html>
